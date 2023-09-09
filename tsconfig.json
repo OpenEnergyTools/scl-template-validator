@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "lib": ["es2020", "dom"],
+    "strict": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "./",
+  },
+  "files": [
+    "scl-template-validator.ts",
+  ],
+}
