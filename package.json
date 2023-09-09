@@ -3,7 +3,7 @@
   "description": "A NSD based validator for data type templates in the SCL",
   "license": "Apache-2.0",
   "author": "Jakob Vogelsang",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "main": "./dist/scl-template-validator.js",
   "types": "./dist/scl-template-validator.d.ts",

@@ -10,25 +10,25 @@ export type Issue = {
 };
 
 export const iec6185074 = fetch(
-  new URL("../nsd/IEC_61850-7-4_2007B3.nsd", import.meta.url)
+  new URL("./nsd/IEC_61850-7-4_2007B3.nsd", import.meta.url)
 )
   .then((response) => response.text())
   .then((str) => new DOMParser().parseFromString(str, "application/xml"));
 
 export const iec6185073 = fetch(
-  new URL("../nsd/IEC_61850-7-3_2007B3.nsd", import.meta.url)
+  new URL("./nsd/IEC_61850-7-3_2007B3.nsd", import.meta.url)
 )
   .then((response) => response.text())
   .then((str) => new DOMParser().parseFromString(str, "application/xml"));
 
 export const iec6185072 = fetch(
-  new URL("../nsd/IEC_61850-7-2_2007B3.nsd", import.meta.url)
+  new URL("./nsd/IEC_61850-7-2_2007B3.nsd", import.meta.url)
 )
   .then((response) => response.text())
   .then((str) => new DOMParser().parseFromString(str, "application/xml"));
 
 export const iec6185081 = fetch(
-  new URL("../nsd/IEC_61850-8-1_2003A2.nsd", import.meta.url)
+  new URL("./nsd/IEC_61850-8-1_2003A2.nsd", import.meta.url)
 )
   .then((response) => response.text())
   .then((str) => new DOMParser().parseFromString(str, "application/xml"));
