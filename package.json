@@ -1,5 +1,5 @@
 {
-  "name": "@openenergytools/xml-schema-validator",
+  "name": "@openenergytools/scl-template-validator",
   "description": "A NSD based validator for data type templates in the SCL",
   "license": "Apache-2.0",
   "author": "Jakob Vogelsang",
